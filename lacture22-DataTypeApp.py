@@ -1,0 +1,10 @@
+print('-------------------------')
+print('Welcome to Teerachai Shop')
+print('-------------------------')
+print("Apple", 3,30,"THB - ",3*30," THB")
+print("Apple", 3,30,"THB - ",3*30," THB")
+print("Apple", 3,30,"THB - ",3*30," THB")
+print("Apple", 3,30,"THB - ",3*30," THB")
+print('-------------------------')
+
+print("10"+"5")
