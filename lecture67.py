@@ -5,3 +5,4 @@ print(max(listEx))
 print(min(listEx))
 print(tuple(listEx))
 print(tupleEx.index(10))
+
