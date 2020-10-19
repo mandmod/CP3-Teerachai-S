@@ -1,3 +1,4 @@
+systemMenu = {'ข้าวหมกไก่': 45, 'ข้าวมันไก่': 40, 'ข้าวมันไก่ผสม': 50, 'ข้าวมันไก่พิเศษ': 45}
 menuList = []
 
 
@@ -15,7 +16,6 @@ while True:
     if (menuName.lower() == 'exit'):
         break
     else:
-        menuPrice = input('Price : ')
-        menuList.append([menuName, menuPrice])
+        menuList.append([menuName, systemMenu[menuName]])
 
 showBill()
